@@ -24,7 +24,7 @@ def move(turn):
             Board[pos] = globals()['P{}'.format(turn%2+1)]
 
 def check(turn):
-    #vincitore
+    #winner
     if ( #rows
         (Board[0] == Board[1] and Board[1] == Board[2] and Board[0] != ' ') or
         (Board[3] == Board[4] and Board[4] == Board[5] and Board[3] != ' ') or
