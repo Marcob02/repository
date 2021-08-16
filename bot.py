@@ -1,5 +1,3 @@
-from os import system
-from ssl import ALERT_DESCRIPTION_UNSUPPORTED_CERTIFICATE
 import speech_recognition as sr
 
 def main():
